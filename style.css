@@ -1,21 +1,22 @@
-/*===========================
+/*====================================
         INDEX
 1.COMMON CSS
 2.REUSABLE COMPONENTS
 3.FULL-STACK
 4.MY-SERVICES
 5.DEVELOP
-6.
-==========================*/
+6.GLOBAL
+7.CONTACT US
+======================================*/
 
-/*=========================
+/*========================================================
         COMMON CSS
-==========================*/
+===============================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
 body{
     background-color: #fff;
-    color: #333;
+    color: black;
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     text-rendering: optimizeLegibility;
@@ -31,9 +32,9 @@ h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif;}
     margin:auto;
 }
 
-/*=========================
+/*========================================
        REUSABLE COMPONENTS
-==========================*/
+===========================================*/
 .highlight-color{
     color: orange;
 }
@@ -56,11 +57,12 @@ section{
     display:inline-block;
     font-weight: 600;
     cursor: pointer;
+    border: none;
 }
 
 .section-title{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 h4 {
     font-size: 22px;
@@ -74,9 +76,9 @@ img{
 }
 
 
-/*=====================================
+/*=====================================================
         FULL-STACK SECTION
-=====================================*/
+===================================================*/
 .first-collum h1 {
     font-size: 65px;
     margin-top: 100px;
@@ -97,9 +99,9 @@ img{
     
 
 }
-/*=====================================
-        Our-SERVICES SECTION
-=====================================*/
+/*===============================================
+        OUR-SERVICES SECTION
+================================================*/
 #our-services{
     text-align: center;
 }
@@ -176,3 +178,14 @@ textarea::placeholder {
     color: black;
     padding-left: 20px;
 }
+
+/*---------------------------------------
+      FOOTER 
+-----------------------------------------*/
+footer{
+    background-color: black;
+    text-align: center;
+    padding:50px;
+    color: white;
+}
+footer p{color: rgba(255, 255, 255, 0.849);}
