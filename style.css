@@ -2,9 +2,9 @@
         INDEX
 1.COMMON CSS
 2.REUSABLE COMPONENTS
-3.STAY FOCUSED 
-4.
-5.
+3.FULL-STACK
+4.MY-SERVICES
+5.DEVELOP
 6.
 ==========================*/
 
@@ -46,8 +46,6 @@ section{
     }
 .half-width{
     width: 50%;
-    padding-right: 5%;
-    padding-left: 5%;
 }
 .cta-btn{
     color:#fff;
@@ -63,9 +61,20 @@ section{
     text-align: center;
     font-size: 40px;
 }
+h4 {
+    font-size: 22px;
+}
+
+.iteam-title{
+    font-size: 40px;
+}
+img{
+    width: 100%;
+}
+
 
 /*=====================================
-        Stay Focused section
+        FULL-STACK SECTION
 =====================================*/
 .first-collum h1 {
     font-size: 65px;
@@ -82,11 +91,57 @@ section{
 }
 
 .second-collum img{
-    width: 80%;
+    width: 70%;
     float: right;
     
 
 }
 /*=====================================
-        Mission  Section
+        MY-SERVICES SECTION
 =====================================*/
+#my-services{
+    text-align: center;
+}
+ #my-services i {
+    font-size:60px;
+    color:black;
+    border:3px solid black;
+    padding: 25px;
+    border-radius: 50%;   
+}
+.grid-services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+}
+.grid-services-container-iteam {
+   padding:40px 30px 20px 30px;
+   border-radius: 20px;
+}
+#responsive
+{background-color: #cfe0e8;}
+#maintenance{
+    background-color: #daebe8;
+}
+#reasonable{
+    background-color: #b7d7e8;
+}
+
+/*=====================================
+       DEVELOP SECTION
+=====================================*/
+.grid-develop-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5%;
+}
+
+/*=====================================
+       GLOBAL SECTION
+=====================================*/
+.grid-global-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5%;
+}
+
