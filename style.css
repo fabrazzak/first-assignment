@@ -55,6 +55,7 @@ section{
     margin:15px 0px;
     display:inline-block;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .section-title{
@@ -97,12 +98,12 @@ img{
 
 }
 /*=====================================
-        MY-SERVICES SECTION
+        Our-SERVICES SECTION
 =====================================*/
-#my-services{
+#our-services{
     text-align: center;
 }
- #my-services i {
+ #our-services i {
     font-size:60px;
     color:black;
     border:3px solid black;
@@ -144,4 +145,34 @@ img{
     grid-template-columns: 2fr 1fr;
     grid-gap: 5%;
 }
+/*=====================================
+      CONTACT SECTION
+=====================================*/
+.grid-contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+}
+.grid-contact-container-iteam{
+    background-color: rgba(51, 51, 51, 0);
+    padding: 10%;
+    border:2px solid rgba(0, 0, 0, 0.13)
+}
+.single-form input[type="text"],
+.single-form input[type="email"],
+.single-form textarea{
+    width: 100%;
+    padding:10px 0px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border:1px solid black;
+    font: ;
+}
 
+input,
+input::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
+}
